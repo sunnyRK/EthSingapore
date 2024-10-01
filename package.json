@@ -1,0 +1,22 @@
+{
+    "name": "telegram-wallet-bot",
+    "version": "1.0.0",
+    "description": "A Telegram bot for managing crypto wallets and checking balances across multiple chains",
+    "main": "dist/bot.js",
+    "scripts": {
+      "start": "node dist/bot.js",
+      "build": "tsc",
+      "dev": "ts-node src/bot.ts"
+    },
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "ethers": "^6.3.0",
+      "telegraf": "^4.12.2",
+      "crypto": "^1.0.1"
+    },
+    "devDependencies": {
+      "@types/node": "^18.16.0",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.4"
+    }
+  }
